@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048 - Swift Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- game container -->
+    <main class="game_container">
+      <!-- Navbar -->
+      <nav>
+        <p class="textHeader">2048</p>
+        <div class="user_header">
+          <p class="user_pop">Guest User</p>
+          <button class="login_btn btn">Login</button>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <div class="container">
+        <div class="info">
+          <h1>2048</h1>
+          <div class="score_container">
+            <div class="score_info">
+              <p class="score-title">Score</p>
+              <h2 id="score">0</h2>
+            </div>
+            <div class="score_info">
+              <p class="score-title high_score">High Score</p>
+              <h2 id="score_high">0</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- grid container -->
+        <div class="grid"></div>
+        <!-- grid container -->
+        <div class="btnContainer">
+          <button id="restart-button">Restart</button>
+          <button id="undo-button">Undo</button>
+        </div>
+        <div id="result"></div>
+      </div>
+    </main>
+    <!-- game container -->
+
+    <!-- script file -->
+    <script src="main.js"></script>
+  </body>
+</html>
